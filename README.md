@@ -1,4 +1,4 @@
-# 这是一套vibecoding文档管理和agent提示词系统
+agent系统使用及构建说明
 
 ## 使用说明
 1. 操作人需要将整个core_documents放到自己的项目根目录之下；
@@ -108,8 +108,8 @@
 		- Core_documents/library/uiux. Md（整体的交互文档）
 		- Core_documents/library/structure. Md（整体的架构文档）
 2. 其他文件的维护要求：
-	- 需要初始化的文档（操作人只给了要求，没做内容填充）：按照文档内的格式要求进行内容补充：
-  		- Core_documents/library/service. md（服务构建及 API 对接说明）
+  - 需要初始化的文档（操作人只给了要求，没做内容填充）：按照文档内的格式要求进行内容补充：
+    - Core_documents/library/service. md（服务构建及 API 对接说明）
 		- Core_documents/library/workflow. md（重点模块的业务流程）
 		- Core_documents/library/database. md（数据库构建详情）
 	- 不需要初始化的文档（操作人已经实现填充了内容） ：维护的时候只要是检查需不需要新增文件、替换矛盾的内容
